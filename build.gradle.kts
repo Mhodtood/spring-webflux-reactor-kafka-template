@@ -7,7 +7,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.1.6"
 }
 
-group = "dev.tpcoder"
+group = "dev.mhodtood"
 version = "0.0.1-SNAPSHOT"
 
 java {
