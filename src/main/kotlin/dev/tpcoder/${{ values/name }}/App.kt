@@ -1,4 +1,4 @@
-package dev.tpcoder.kafkaprojecttemplate
+package dev.tpcoder.${{ values.name }}
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.context.properties.ConfigurationPropertiesScan
@@ -6,8 +6,8 @@ import org.springframework.boot.runApplication
 
 @SpringBootApplication
 @ConfigurationPropertiesScan
-class KafkaProjectTemplateApplication
+class App
 
 fun main(args: Array<String>) {
-    runApplication<KafkaProjectTemplateApplication>(*args)
+    runApplication<App>(*args)
 }

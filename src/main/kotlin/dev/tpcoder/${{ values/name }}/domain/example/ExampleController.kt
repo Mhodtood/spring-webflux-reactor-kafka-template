@@ -1,4 +1,4 @@
-package dev.tpcoder.kafkaprojecttemplate.domain.example
+package dev.tpcoder.${{ values.name }}.domain.example
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import dev.tpcoder.kafkaprojecttemplate.configuration.properties.KafkaChannelProperties
@@ -25,14 +25,14 @@ class ExampleController(
     private val kafkaChannelProperties: KafkaChannelProperties
 ) {
 
-    private val logger = LoggerFactory.getLogger(ExampleController::class.java)
+    private val logger = LoggerFactory.getLogger(dev.tpcoder.${{ values.name }}.domain.example.ExampleController::class.java)
 
     @PostMapping
-    fun send(@RequestBody body: ExampleMessage): Mono<Void> {
+    fun send(@RequestBody body: dev.tpcoder.${{ values.name }}.domain.example.ExampleMessage): Mono<Void> {
         val id = UUID.randomUUID()
         val key = DigestUtils.md5DigestAsHex(id.toString().toByteArray())
         val payload = objectMapper.writeValueAsBytes(
-            KafkaPayload(
+            dev.tpcoder.${{ values.name }}.domain.example.KafkaPayload(
                 id = id.toString(),
                 data = body
             )

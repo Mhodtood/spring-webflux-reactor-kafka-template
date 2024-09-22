@@ -1,1 +1,1 @@
-rootProject.name = "kafka-project-template"
+rootProject.name = "${{ values.name }}"

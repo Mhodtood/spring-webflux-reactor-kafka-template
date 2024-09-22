@@ -1,4 +1,4 @@
-package dev.tpcoder.kafkaprojecttemplate
+package dev.tpcoder.${{ values.name }}
 
 import org.springframework.boot.test.context.TestConfiguration
 import org.springframework.context.annotation.Bean

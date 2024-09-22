@@ -1,4 +1,4 @@
-package dev.tpcoder.kafkaprojecttemplate.domain.example
+package dev.tpcoder.${{ values.name }}.domain.example
 
 data class ExampleMessage(
     val title: String,

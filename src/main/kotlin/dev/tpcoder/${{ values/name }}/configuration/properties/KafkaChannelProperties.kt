@@ -1,4 +1,4 @@
-package dev.tpcoder.kafkaprojecttemplate.configuration.properties
+package dev.tpcoder.${{ values.name }}.configuration.properties
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 
