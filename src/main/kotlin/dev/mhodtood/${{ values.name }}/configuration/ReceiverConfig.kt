@@ -1,4 +1,4 @@
-package dev.tpcoder.${{ values.name }}.configuration
+package dev.mhodtood.${{ values.name }}.configuration
 
 import dev.tpcoder.kafkaprojecttemplate.configuration.properties.KafkaChannelProperties
 import org.apache.kafka.clients.consumer.ConsumerConfig

@@ -1,4 +1,4 @@
-package dev.tpcoder.${{ values.name }}
+package dev.mhodtood.${{ values.name }}
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.context.properties.ConfigurationPropertiesScan

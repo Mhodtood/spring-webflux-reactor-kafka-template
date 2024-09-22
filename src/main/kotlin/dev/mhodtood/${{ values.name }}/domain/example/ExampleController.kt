@@ -1,4 +1,4 @@
-package dev.tpcoder.${{ values.name }}.domain.example
+package dev.mhodtood.${{ values.name }}.domain.example
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import dev.tpcoder.kafkaprojecttemplate.configuration.properties.KafkaChannelProperties

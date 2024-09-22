@@ -1,4 +1,4 @@
-package dev.tpcoder.${{ values.name }}
+package dev.mhodtood.${{ values.name }}
 
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.context.annotation.Import

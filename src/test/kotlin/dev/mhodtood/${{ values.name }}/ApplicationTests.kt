@@ -1,4 +1,4 @@
-package dev.tpcoder.${{ values.name }}
+package dev.mhodtood.${{ values.name }}
 
 import org.junit.jupiter.api.Test
 

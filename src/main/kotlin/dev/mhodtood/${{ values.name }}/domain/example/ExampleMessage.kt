@@ -1,4 +1,4 @@
-package dev.tpcoder.${{ values.name }}.domain.example
+package dev.mhodtood.${{ values.name }}.domain.example
 
 data class ExampleMessage(
     val title: String,
